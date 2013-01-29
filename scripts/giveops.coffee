@@ -4,7 +4,7 @@
 ops = [
   "pikesley",
   "davetaz",
-  "pezhelio"
+  "pezholio"
 ]
 
 module.exports = (robot) ->
