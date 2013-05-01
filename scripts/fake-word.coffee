@@ -8,14 +8,25 @@
 #   None
 #
 # Commands:
-#   fake word me - <FAKE WORD>
+#   fake word me - <FAKE WORDS>
 #
 # Author:
 #   @pezholio
 
 module.exports = (robot) ->
-  robot.respond /fake word me/i, (msg) ->
+  robot.respond /(gimme|give me) (\d+|a) fake word(s)?/i, (msg) ->
     msg.http('http://www.wordgenerator.net/application/p.php?id=fake_words&type=50&spaceflag=false').get() (err, res, body) ->
       words = body.split(',')
-      word = words[Math.floor(Math.random()*words.length)]
-      msg.send word
+      console.log(msg.match)
+      if msg.match[2] == "a"
+        fakeWord(msg, words)
+      else    
+        for [1..msg.match[2]]
+          fakeWord(msg, words)
+
+fakeWord = (msg, words) ->
+  word = words[Math.floor(Math.random()*words.length)]
+  if word.length > 0
+    msg.send word
+  else 
+    fakeWord(msg, words)
