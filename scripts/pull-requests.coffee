@@ -1,4 +1,4 @@
-ROOM = "theodi"
+ROOM = "#theodi"
 
 module.exports = (robot) ->
 
