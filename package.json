@@ -22,7 +22,8 @@
     "date-utils": ">=1.2.5",
     "githubot": ">=0.4.0",
     "cron": ">=0.3.3",
-    "time": ">=0.8.2"
+    "time": ">=0.8.2",
+    "ntwitter"
   },
 
   "engines": {
