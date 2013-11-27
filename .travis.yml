@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+- 2.0.0
+deploy:
+  app: odibot
+  api_key:
+    secure: STtctW+abfpOw/TUWn0zfWNS1kn/fk4N/z/0oI7dbhNnHdZfFstRI0F+xCNybzh/UjJ7fvcQma8jucxpQU16eBvG8Bdu8LhVeVaAsS4G6cYYpVKpe7k1IyZIF/M0vTwyaHGUR4NNFXbdNiaeySw8viV269dmcNk3D+JhJQjdnV4=
