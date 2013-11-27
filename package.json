@@ -16,8 +16,8 @@
 
   "dependencies": {
     "hubot-irc": "git://github.com/theodi/hubot-irc.git",
-    "hubot": ">=2.4.6",
-    "hubot-scripts": ">= 2.4.1",
+    "hubot": ">=2.5.5",
+    "hubot-scripts": ">= 2.4.6",
     "optparse": "1.0.3",
     "date-utils": ">=1.2.5",
     "githubot": ">=0.4.0",
