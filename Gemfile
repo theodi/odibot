@@ -4,5 +4,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=odibot
 
-gem 'rake'
-gem 'travis' #, '~> 1.6.2'
+group :development do
+  gem 'rake'
+  gem 'travis'
+end
