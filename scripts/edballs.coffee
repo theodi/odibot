@@ -15,4 +15,4 @@
 
 module.exports = (robot) ->
   robot.hear /Ed.*Balls/i, (msg) ->
-    msg.send "We are all Ed Balls now"
+    msg.send "http://i3.kym-cdn.com/photos/images/newsfeed/000/530/356/7a1.jpg"
