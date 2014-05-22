@@ -1,6 +1,6 @@
 TIMEZONE = "Europe/London"
 DAILY_STANDUP = '0 58 09 * * 1-5' 
-ROOM = "theodi"
+ROOM = "#theodi"
 
 cronJob = require('cron').CronJob
 

@@ -15,4 +15,4 @@
 
 module.exports = (robot) ->
   robot.hear /Ed.*Balls/i, (msg) ->
-    msg.send "It is no longer Ed Balls Day"
+    msg.send "We are all Ed Balls now"
