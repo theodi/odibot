@@ -6,6 +6,8 @@ This version is designed to be deployed on [Heroku][heroku].
 
 [heroku]: http://www.heroku.com
 
+However, he sometimes goes missing.
+
 ## Playing with Hubot
 
 You'll need to install the necessary dependencies for hubot. All of
